@@ -64,7 +64,7 @@ matrix:
         - export PATH=`pwd`/flutter/bin:`pwd`/flutter/bin/cache/dart-sdk/bin:$PATH
         - flutter doctor
       script:
-        - cd Android/flutter_grade/
+        #- cd Android/flutter_grade/
         - flutter packages get
         - flutter -v build apk
 
@@ -84,7 +84,7 @@ matrix:
         - source ~/.bash_profile
         - flutter doctor
       script:
-        - cd Android/flutter_grade/
+        #- cd Android/flutter_grade/
         - flutter packages get
         - flutter -v build ios --no-codesign
 
